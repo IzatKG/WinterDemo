@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestSuite" verbose="1" parallel="classes" thread-count="1">
+    <listeners>
+        <listener class-name="UI.utils.AllureReportListener"/>
+    </listeners>
+    <test  name="SmokeTest">
+       <classes>
+           <class name="DemoTest"/>
+           <class name="TitleTest"/>
+       </classes>
+    </test>
+</suite>git
