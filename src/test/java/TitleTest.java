@@ -11,11 +11,4 @@ public class TitleTest extends BaseTest {
         Assert.assertTrue(titlePage.logoName.isDisplayed());
     }
 
-    @Test
-    @Description("Just check git commands")
-    public void get(){
-        System.out.println("Aigerim");
-
-    }
-
 }
