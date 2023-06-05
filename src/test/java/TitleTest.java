@@ -7,7 +7,15 @@ public class TitleTest extends BaseTest {
     @Test
     @Description("Check logo name on the title page")
     public void checkLogoNameTest() {
+
         Assert.assertTrue(titlePage.logoName.isDisplayed());
+    }
+
+    @Test
+    @Description("Just check git commands")
+    public void get(){
+        System.out.println("Aigerim");
+
     }
 
 }
