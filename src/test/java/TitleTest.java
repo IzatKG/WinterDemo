@@ -10,4 +10,11 @@ public class TitleTest extends BaseTest {
         Assert.assertTrue(titlePage.logoName.isDisplayed());
     }
 
+
+    @Test
+    @Description("Check name")
+    public void checkNameTest(){
+        System.out.println("zhyldyz");
+    }
+
 }
