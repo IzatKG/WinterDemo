@@ -10,4 +10,9 @@ public class TitleTest extends BaseTest {
         Assert.assertTrue(titlePage.logoName.isDisplayed());
     }
 
+
+    @Test
+    @Description("Check all checkbox in Intera")
+    public  void checkClickable(){ Assert.assertTrue(titlePage.menuLink.isDisplayed());}
+
 }
