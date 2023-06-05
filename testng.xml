@@ -6,8 +6,8 @@
     </listeners>
     <test  name="SmokeTest">
        <classes>
-           <class name="DemoTest"/>
+
            <class name="TitleTest"/>
        </classes>
     </test>
-</suite>git
+</suite>
