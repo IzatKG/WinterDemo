@@ -12,7 +12,7 @@ public class TitleTest extends BaseTest {
 
 
     @Test
-    @Description("Check all checkbox in Intera")
+    @Description("Check all checkbox in Namba")
     public  void checkClickable(){ Assert.assertTrue(titlePage.menuLink.isDisplayed());}
 
 }
