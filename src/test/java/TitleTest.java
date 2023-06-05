@@ -9,6 +9,10 @@ public class TitleTest extends BaseTest {
     public void checkLogoNameTest() {
 
         Assert.assertTrue(titlePage.logoName.isDisplayed());
-    }
 
+    }
+    @Test
+    public void getName(){
+        System.out.println("Meerim");
+    }
 }
